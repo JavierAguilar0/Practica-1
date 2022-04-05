@@ -45,7 +45,7 @@ elif velocidad[4,3]>velocidad[3,4]:
     print('El segundo mas rapido: a2',velocidad[4,3])
 elif velocidad[3,4]==velocidad[4,3]:
     print('Empate entre b1',velocidad[3,4],'y a2',velocidad[4,3])
-print('\n')
+print('\nEl minimo de carreras para encontrar los dos mas rapidos fue de 7\n')
     
 grafo={'caballos':{'grupo a':5,'grupo b':5,'grupo c':5,'grupo d':5,'grupo e':5},
       'grupo a':{'ganador 1':5,'segundo rapido':10},
