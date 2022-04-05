@@ -86,7 +86,8 @@ grafo.add_edge("Grupo 1","El segundo mas rapido")
 g=nx.nx_agraph.to_agraph(grafo)
 g.layout('dot')
 g.draw('grafo.png')
-nx.write_graphhml(g,"caballos.graphml")"""
+nx.write_graphhml(g,"caballos.graphml")
+graphviz.Source(A.to_string())"""
 
 grafo2={'caballos':{'grupo a':5,'grupo b':5,'grupo c':5,'grupo d':5,'grupo e':5},
       'grupo a':{'ganador 1':5,'segundo rapido':10},
