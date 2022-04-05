@@ -4,11 +4,12 @@
 import random
 import numpy as np
 #lista de caballos
-caballos_a=['a5','a4','a3','a2','a1']
-caballos_b=['b5','b4','b3','b2','b1']
-caballos_c=['c5','c4','c3','c2','c1']
-caballos_d=['d5','d4','d3','d2','d1']
-caballos_e=['e5','e4','e3','e2','e1']
+caballos=['a5','a4','a3','a2','a1','b5','b4','b3','b2','b1','c5','c4','c3','c2','c1','d5','d4','d3','d2','d1','e5','e4','e3','e2','e1']
+caballos_a=caballos[0:5]
+caballos_b=caballos[5:10]
+caballos_c=caballos[10:15]
+caballos_d=caballos[15:20]
+caballos_e=caballos[20:25]
 print('Competidores')
 print('grupo 1:',caballos_a)
 print('grupo 2:',caballos_b)
