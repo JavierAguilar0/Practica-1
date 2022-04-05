@@ -1,11 +1,11 @@
 import random
 import numpy as np
 #lista de caballos
-caballos_a=['a1','a2','a3','a4','a5']
-caballos_b=['b1','b2','b3','b4','b5']
-caballos_c=['c1','c2','c3','c4','c5']
-caballos_d=['d1','d2','d3','d4','d5']
-caballos_e=['e1','e2','e3','e4','e5']
+caballos_a=['a5','a4','a3','a2','a1']
+caballos_b=['b5','b4','b3','b2','b1']
+caballos_c=['c5','c4','c3','c2','c1']
+caballos_d=['d5','d4','d3','d2','d1']
+caballos_e=['e5','e4','e3','e2','e1']
 print('Competidores')
 print('grupo 1:',caballos_a)
 print('grupo 2:',caballos_b)
@@ -31,9 +31,11 @@ for x in range(5):
     print('ganador grupo',5-x,velocidad[x,4])
 #carrera 6
 print('\nCarrera 6')
+print('competidores: e1',velocidad[0,4],'d1',velocidad[1,4],'c1',velocidad[2,4],'b1',velocidad[3,4],'a1',velocidad[4,4])
 print('El mas rapido: a1',velocidad[4,4])
 #Carrera 7
 print('\nSeptima carrera')
+print('competidores: a5',velocidad[4,0],'a4',velocidad[4,1],'a3',velocidad[4,2],'a2',velocidad[4,3],'b1',velocidad[3,4])
 if velocidad[3,4]>velocidad[4,0] and velocidad[3,4]>velocidad[4,1] and velocidad[3,4]>velocidad[4,2] and velocidad[3,4]>velocidad[4,3]:
     print('El segundo mas rapido: b1',velocidad[3,4])
 elif velocidad[4,3]>velocidad[3,4]:
