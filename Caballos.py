@@ -3,7 +3,7 @@
 #6E1 Mecatronica
 import random
 import numpy as np
-import networkx as nx
+#import networkx as nx
 #import graphviz
 #lista de caballos
 caballos=['a5','a4','a3','a2','a1','b5','b4','b3','b2','b1','c5','c4','c3','c2','c1','d5','d4','d3','d2','d1','e5','e4','e3','e2','e1']
