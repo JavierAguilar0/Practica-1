@@ -3,6 +3,7 @@
 #6E1 Mecatronica
 import random
 import numpy as np
+import cv2
 #lista de caballos
 caballos=['a5','a4','a3','a2','a1','b5','b4','b3','b2','b1','c5','c4','c3','c2','c1','d5','d4','d3','d2','d1','e5','e4','e3','e2','e1']
 caballos_a=caballos[0:5]
@@ -101,3 +102,7 @@ def grafito(grafo,vertice,fin):
 		print("El camino más corto es: " + str(camino))
 
 grafito(grafo, 'caballos', 'segundo rapido')
+imagen=cv2.imread('Grafo.jpeg',0)
+cv2.imshow('Grafo',imagen)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
