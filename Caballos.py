@@ -1,3 +1,6 @@
+#Javier Arturo Aguilar Corona
+#19110054
+#6E1 Mecatronica
 import random
 import numpy as np
 #lista de caballos
