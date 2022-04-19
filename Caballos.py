@@ -162,4 +162,4 @@ def grafito(grafo2,vertice,fin):
 		print("La distancia más corta desde " + str.upper(vertice) + " hasta " + str.upper(fin) + " es " + str(distancia[fin]))
 		print("El camino más corto es: " + str(camino))
 
-grafito(grafo2, 'caballos', 'segundo rapido')
+grafito(grafo2, 'caballos', 'mas rapido')
