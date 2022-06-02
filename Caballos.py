@@ -21,7 +21,7 @@ print('grupo 5:',caballos_e)
 velocidad=np.zeros((5,5))
 dimension=velocidad.shape
 for x in range(dimension[0]):
-    for y in range(dimension[1]):
+    for y in range(dimension[0]):
         velocidad[x,y]=random.randint(1, 100)
 #////////////////////velocidades acomodadas de menor a mayor////////////////////
 print('\nVelocidades acomodadas')
